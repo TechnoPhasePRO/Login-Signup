@@ -10,7 +10,7 @@ var mongoose = require('mongoose');
 var session = require('express-session');
 var MongoStore = require('connect-mongo')(session);
 
-mongoose.connect('mongodb+srv://yraj01:yraj01@cluster0.x6n2j.mongodb.net/Users?retryWrites=true&w=majority', {
+mongoose.connect('mongodb+srv://yraj01:**********@cluster0.x6n2j.mongodb.net/Users?retryWrites=true', {
   useNewUrlParser: true,
   useUnifiedTopology: true
 });
