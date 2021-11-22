@@ -4,7 +4,7 @@ var ejs = require('ejs');
 var path = require('path');
 var app = express();
 var bodyParser = require('body-parser');
-const PORT = process.env.PORT || 3000;
+const port = process.env.PORT;
 var mongoose = require('mongoose');
 
 var session = require('express-session');
@@ -50,8 +50,10 @@ app.use(function (err, req, res, next) {
   res.status(err.status || 500);
   res.send(err.message);
 });
+if(port == null || port == ""){
+  port = 3000;
+}
 
-
-app.listen(PORT, function () {
-  console.log('Server is started on port 3000');
+app.listen(port, function () {
+  console.log("Server has started successfully.");
 });
