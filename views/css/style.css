@@ -1,0 +1,35 @@
+body{
+	text-align: center !important;
+    font-family: 'Noto Serif', serif;
+    color: #fff;
+    background-color: #fad0c4;
+background-image: linear-gradient(315deg, #fad0c4 0%, #f1a7f1 74%);
+background-attachment: fixed;
+    
+}
+p{
+	margin-top: 20px;
+	font-size: 30px;
+    font-family: 'Shippori Antique B1', sans-serif;
+    font-weight: bolder;
+}
+input{
+	text-align: center;
+}
+.btn{
+    font-family: 'Bree Serif', serif;
+}
+a{
+    font-family: 'Crete Round', serif;
+
+}
+.switch{
+    font-family: 'Crete Round', serif;
+    text-decoration: underline;
+    font-weight: bolder;
+}
+.mssg{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	border-radius: 5px;
+}
